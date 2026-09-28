@@ -15,7 +15,6 @@ Object Scope is a browser-based AI object detection platform designed to demonst
 The project uses TensorFlow.js and COCO-SSD to detect objects directly in the browser, without requiring additional software installation or a dedicated backend for inference.
 
 **Object Scope provides two main detection modes:**
-
 - **Image Detection** — Upload an image and detect objects within it.
 - **Camera Detection** — Use a live camera stream for real-time object detection.
 
@@ -53,11 +52,9 @@ The project also includes a research proposal covering the system architecture, 
 ## Project
 
 **Live Demo:**  
-
 https://objectscope-research.web.app/
 
 **Project Title:**  
-
 Object Scope – Real-Time and Image-Based Object Detection with COCO-SSD and TensorFlow.js
 Object Scope is developed as a university research project exploring the practical use of computer vision and AI directly within modern web browsers.
 
