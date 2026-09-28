@@ -7,7 +7,8 @@
 ![Browser](https://img.shields.io/badge/runs%20in-Browser-purple)
 ![Firebase](https://img.shields.io/badge/hosted%20on-Firebase-orange)
 
-<img width="1671" height="941" alt="Object Scope - Real-Time and Image-Based Object Detection with COCO-SSD and TensorFlow js" src="https://github.com/user-attachments/assets/1ef2bf40-55cc-473b-bd0a-8d33c8e7c094" />
+<img width="1671" height="836" alt="Object Scope - Real-Time and Image-Based Object Detection with COCO-SSD and TensorFlow js" src="https://github.com/user-attachments/assets/ff7797f3-3d1e-49b5-b756-41e47a00df71" />
+
 
 ## About
 
