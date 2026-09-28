@@ -1,4 +1,4 @@
-# Object Scope
+# ObjectScope
 ![Platform](https://img.shields.io/badge/platform-Web-blue)
 ![Language](https://img.shields.io/badge/language-JavaScript-yellow)
 ![AI](https://img.shields.io/badge/AI-TensorFlow.js-orange)
