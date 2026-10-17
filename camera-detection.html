@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Camera Detection - Object Scope</title>
+        <title data-i18n="meta.cameraDetectionTitle"></title>
 
-        <link rel="stylesheet" href="dashboard/assets/css/stylesheet.css">
-        <link rel="stylesheet" href="dashboard/assets/css/camera.css">
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/camera-detection.css">
+        <link rel="stylesheet" href="assets/css/lang-switch.css">
 
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.17.0"></script>
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.2/dist/coco-ssd.min.js"></script>
-        <script src="dashboard/assets/js/engine.js" defer></script>
-        <script src="dashboard/assets/js/camera-detector.js" defer></script>
+        <script src="assets/js/i18n.js" defer></script>
+        <script src="assets/js/engine.js" defer></script>
+        <script src="assets/js/camera-detector.js" defer></script>
     </head>
     <body>
         <header class="navbar">
             <div class="nav-container">
                 <a href="index.html" class="brand">
-                    <img src="dashboard/assets/images/brandmark.png" alt="Object Scope">
-                    <span>
-                        Object Scope
-                    </span>
+                    <img src="assets/images/brandmark.png" alt="Object Scope">
+                    <span data-i18n="brand.name"></span>
                 </a>
                 <nav class="nav-menu">
-                    <a href="/indexen">Home</a>
-                    <a href="/indexen#features">Features</a>
-                    <a href="/image-detection">Image Detection</a>
-                    <a href="/camera-detection">Camera Detection</a>
-                    <a href="/indexen#proposal">Proposal</a>
-                    <a href="/indexen#about">About</a>
+                    <a href="index.html" data-i18n="nav.home"></a>
+                    <a href="index.html#features" data-i18n="nav.features"></a>
+                    <a href="image-detection.html" data-i18n="nav.imageDetection"></a>
+                    <a href="camera-detection.html" data-i18n="nav.cameraDetection"></a>
+                    <a href="index.html#proposal" data-i18n="nav.proposal"></a>
+                    <a href="index.html#about" data-i18n="nav.about"></a>
                 </nav>
+                <a href="#" class="lang-switch" id="lang-toggle">EN</a>
                 <button class="menu-toggle" id="menu-toggle">
                     ☰
                 </button>
@@ -39,32 +40,20 @@
             <section class="camera-section">
                 <div class="camera-container">
                     <div class="camera-header">
-                        <h1>
-                            Camera Detection
-                        </h1>
-                        <p>
-                            Real-time object detection using your camera powered by TensorFlow.js and COCO-SSD.
-                        </p>
+                        <h1 data-i18n="camera.title"></h1>
+                        <p data-i18n="camera.subtitle"></p>
                     </div>
-                    <div class="model-status" id="model-status">
-                        Loading AI Model...
-                    </div>
+                    <div class="model-status" id="model-status" data-i18n="camera.loading"></div>
                     <div class="camera-box">
                         <video id="camera" autoplay playsinline></video>
                         <canvas id="camera-canvas"></canvas>
                     </div>
                     <div class="camera-controls">
-                        <button id="start-camera">
-                            Start Camera
-                        </button>
-                        <button id="stop-camera">
-                            Stop Camera
-                        </button>
+                        <button id="start-camera" data-i18n="camera.start"></button>
+                        <button id="stop-camera" data-i18n="camera.stop"></button>
                     </div>
                     <div class="camera-results">
-                        <h2>
-                            Detection Results
-                        </h2>
+                        <h2 data-i18n="camera.results"></h2>
                         <div id="camera-results">
                         </div>
                     </div>
@@ -74,7 +63,7 @@
         <footer class="footer">
             <div class="footer-container">
                 <p>
-                    Designed and Developed by
+                    <span data-i18n="footer.designedBy"></span>
                     <a href="https://github.com/fouad-salehi" target="_blank">
                         Fouad Salehi
                     </a>
