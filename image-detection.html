@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title data-i18n="meta.imageDetectionTitle"></title>
+
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/image-detection.css">
+        <link rel="stylesheet" href="assets/css/lang-switch.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.17.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.2/dist/coco-ssd.min.js"></script>
+        <script src="assets/js/i18n.js" defer></script>
+        <script src="assets/js/engine.js" defer></script>
+        <script src="assets/js/image-detector.js" defer></script>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="brand">
+                    <img src="assets/images/brandmark.png" alt="Object Scope">
+                    <span data-i18n="brand.name"></span>
+                </a>
+                <nav class="nav-menu">
+                    <a href="index.html" data-i18n="nav.home"></a>
+                    <a href="index.html#features" data-i18n="nav.features"></a>
+                    <a href="image-detection.html" data-i18n="nav.imageDetection"></a>
+                    <a href="camera-detection.html" data-i18n="nav.cameraDetection"></a>
+                    <a href="index.html#proposal" data-i18n="nav.proposal"></a>
+                    <a href="index.html#about" data-i18n="nav.about"></a>
+                </nav>
+                <a href="#" class="lang-switch" id="lang-toggle">EN</a>
+                <button class="menu-toggle" id="menu-toggle">
+                    ☰
+                </button>
+            </div>
+        </header>
+        <main>
+            <section class="detection-section">
+                <div class="detection-container">
+                    <div class="detection-header">
+                        <h1 data-i18n="detection.title"></h1>
+                        <p data-i18n="detection.subtitle"></p>
+                    </div>
+                    <div class="model-status" id="model-status" data-i18n="detection.loading"></div>
+                    <div class="upload-box">
+                        <input type="file" id="image-upload" accept="image/*">
+                        <label for="image-upload" data-i18n="detection.selectButton"></label>
+                    </div>
+                    <div class="image-container">
+                        <img id="preview-image">
+                        <canvas id="detection-canvas"></canvas>
+                    </div>
+                    <div class="result-box">
+                        <h2 data-i18n="detection.results"></h2>
+                        <div id="results">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <p>
+                    <span data-i18n="footer.designedBy"></span>
+                    <a href="https://github.com/fouad-salehi" target="_blank">
+                        Fouad Salehi
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

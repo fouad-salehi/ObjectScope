@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Object Scope",
+    "imageDetectionTitle": "Image Detection - Object Scope",
+    "cameraDetectionTitle": "Camera Detection - Object Scope"
+  },
+  "brand": { "name": "Object Scope" },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "imageDetection": "Image Detection",
+    "cameraDetection": "Camera Detection",
+    "proposal": "Proposal",
+    "about": "About"
+  },
+  "hero": {
+    "title": "See Beyond The Image",
+    "quote": "Not just an image, but a universe of information waiting to be discovered.",
+    "description": "Every frame tells a story, every detection reveals a new perspective.",
+    "slogan": "Object Scope — where artificial intelligence meets vision."
+  },
+  "features": {
+    "aiVision": "AI Vision",
+    "aiVisionDesc": "Intelligent object recognition powered by modern deep learning.",
+    "realTime": "Real-Time Detection",
+    "realTimeDesc": "Detect objects instantly through your camera stream.",
+    "smartAnalysis": "Smart Analysis",
+    "smartAnalysisDesc": "Convert images into valuable visual information."
+  },
+  "sections": {
+    "imageDetectionTitle": "Image Detection",
+    "imageDetectionDesc": "Upload an image and let AI analyze every detail.",
+    "imageDetectionBtn": "Start Image Detection",
+    "cameraDetectionTitle": "Camera Detection",
+    "cameraDetectionDesc": "Experience real-time object recognition through your camera.",
+    "cameraDetectionBtn": "Start Camera Detection",
+    "proposalTitle": "Project Proposal",
+    "proposalDesc1": "Explore the complete project proposal.",
+    "proposalDesc2": "This document provides detailed information.",
+    "proposalBtn": "View Proposal PDF",
+    "proposalCardTitle": "Object Scope Documentation",
+    "proposalCardItem1": "Artificial Intelligence",
+    "proposalCardItem2": "Computer Vision",
+    "proposalCardItem3": "TensorFlow.js & COCO-SSD",
+    "aboutTitle": "About Object Scope",
+    "aboutDesc1": "Object Scope is an AI powered computer vision platform.",
+    "aboutDesc2": "Built with TensorFlow.js and COCO-SSD.",
+    "aboutDesc3": "The platform allows users to explore image-based detection.",
+    "aboutSlogan": "Object Scope — where AI meets vision.",
+    "creatorTitle": "Created By",
+    "creatorName": "Fouad Salehi",
+    "aboutCard1Title": "AI Powered",
+    "aboutCard1Desc": "Advanced computer vision models.",
+    "aboutCard2Title": "Browser Based",
+    "aboutCard2Desc": "No installation required.",
+    "aboutCard3Title": "Real-Time Vision",
+    "aboutCard3Desc": "Analyze images and camera streams.",
+    "contactTitle": "Developer Contact",
+    "contactDesc": "Connect with Fouad Salehi for more information.",
+    "contactGithub": "GitHub",
+    "contactGitlab": "GitLab",
+    "contactInstagram": "Instagram",
+    "contactTelegram": "Telegram",
+    "techTitle": "Technologies Used"
+  },
+  "detection": {
+    "title": "Image Detection",
+    "subtitle": "Upload an image to detect objects.",
+    "loading": "Loading AI Model...",
+    "selectButton": "Select Image",
+    "results": "Detection Results",
+    "noObjects": "No objects detected.",
+    "ready": "AI Model Ready",
+    "failed": "AI Model Failed"
+  },
+  "camera": {
+    "title": "Camera Detection",
+    "subtitle": "Real-time object detection using your camera.",
+    "loading": "Loading AI Model...",
+    "start": "Start Camera",
+    "stop": "Stop Camera",
+    "results": "Detection Results",
+    "ready": "AI Model Ready",
+    "failed": "AI Model Failed"
+  },
+  "footer": {
+    "rights": "All Rights Reserved © Object Scope 2026",
+    "designedBy": "Designed and Developed by"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist."
+  }
+}

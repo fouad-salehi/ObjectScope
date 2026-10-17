@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title data-i18n="meta.title"></title>
+
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/lang-switch.css">
+
+        <script src="assets/js/i18n.js" defer></script>
+        <script src="assets/js/engine.js" defer></script>
+    </head>
+    <body>
+        <div id="splash-screen">
+            <img src="assets/images/brandmark.png" alt="Object Scope" class="splash-logo">
+        </div>
+        <header class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="brand">
+                    <img src="assets/images/brandmark.png" alt="Object Scope">
+                    <span data-i18n="brand.name"></span>
+                </a>
+                <nav class="nav-menu">
+                    <a href="index.html" data-i18n="nav.home"></a>
+                    <a href="#features" data-i18n="nav.features"></a>
+                    <a href="#image-detection" data-i18n="nav.imageDetection"></a>
+                    <a href="#camera-detection" data-i18n="nav.cameraDetection"></a>
+                    <a href="#proposal" data-i18n="nav.proposal"></a>
+                    <a href="#about" data-i18n="nav.about"></a>
+                </nav>
+                <a href="#" class="lang-switch" id="lang-toggle">EN</a>
+                <button class="menu-toggle" id="menu-toggle">
+                    ☰
+                </button>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section class="features" id="features">
+                    <div class="features-container">
+                        <div class="features-text">
+                            <h2 data-i18n="hero.title"></h2>
+                            <p class="quote" data-i18n="hero.quote"></p>
+                            <p data-i18n="hero.description"></p>
+                            <span data-i18n="hero.slogan"></span>
+                        </div>
+                        <div class="features-card">
+                            <div class="feature-item">
+                                <h3 data-i18n="features.aiVision"></h3>
+                                <p data-i18n="features.aiVisionDesc"></p>
+                            </div>
+                            <div class="feature-item">
+                                <h3 data-i18n="features.realTime"></h3>
+                                <p data-i18n="features.realTimeDesc"></p>
+                            </div>
+                            <div class="feature-item">
+                                <h3 data-i18n="features.smartAnalysis"></h3>
+                                <p data-i18n="features.smartAnalysisDesc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="image-detection" id="image-detection">
+                    <div class="image-detection-container">
+                        <div class="image-detection-content">
+                            <h2 data-i18n="sections.imageDetectionTitle"></h2>
+                            <p data-i18n="sections.imageDetectionDesc"></p>
+                            <a href="image-detection.html" class="detection-btn" data-i18n="sections.imageDetectionBtn"></a>
+                        </div>
+                        <div class="image-detection-visual">
+                            <img src="assets/images/image-detection.png" alt="Image Detection">
+                        </div>
+                    </div>
+                </section>
+                <section class="camera-detection" id="camera-detection">
+                    <div class="camera-detection-container">
+                        <div class="camera-detection-content">
+                            <h2 data-i18n="sections.cameraDetectionTitle"></h2>
+                            <p data-i18n="sections.cameraDetectionDesc"></p>
+                            <a href="camera-detection.html" class="detection-btn" data-i18n="sections.cameraDetectionBtn"></a>
+                        </div>
+                        <div class="camera-detection-visual">
+                            <img src="assets/images/camera-detection.png" alt="Camera Detection">
+                        </div>
+                    </div>
+                </section>
+                <section class="proposal" id="proposal">
+                    <div class="proposal-container">
+                        <div class="proposal-content">
+                            <h2 data-i18n="sections.proposalTitle"></h2>
+                            <p data-i18n="sections.proposalDesc1"></p>
+                            <p data-i18n="sections.proposalDesc2"></p>
+                            <div class="proposal-buttons">
+                                <a href="assets/files/Object Scope  Real-Time and Image-Based Object Detection with COCO-SSD and TensorFlow.js.pdf" target="_blank" class="proposal-btn" data-i18n="sections.proposalBtn"></a>
+                            </div>
+                        </div>
+                        <div class="proposal-card">
+                            <h3 data-i18n="sections.proposalCardTitle"></h3>
+                            <p data-i18n="sections.proposalCardItem1"></p>
+                            <p data-i18n="sections.proposalCardItem2"></p>
+                            <p data-i18n="sections.proposalCardItem3"></p>
+                        </div>
+                    </div>
+                </section>
+                <section class="about" id="about">
+                    <div class="about-container">
+                        <div class="about-content">
+                            <h2 data-i18n="sections.aboutTitle"></h2>
+                            <p data-i18n="sections.aboutDesc1"></p>
+                            <p data-i18n="sections.aboutDesc2"></p>
+                            <p data-i18n="sections.aboutDesc3"></p>
+                            <span data-i18n="sections.aboutSlogan"></span>
+                            <div class="creator">
+                                <h3 data-i18n="sections.creatorTitle"></h3>
+                                <p data-i18n="sections.creatorName"></p>
+                            </div>
+                        </div>
+                        <div class="about-card">
+                            <div class="about-item">
+                                <h3 data-i18n="sections.aboutCard1Title"></h3>
+                                <p data-i18n="sections.aboutCard1Desc"></p>
+                            </div>
+                            <div class="about-item">
+                                <h3 data-i18n="sections.aboutCard2Title"></h3>
+                                <p data-i18n="sections.aboutCard2Desc"></p>
+                            </div>
+                            <div class="about-item">
+                                <h3 data-i18n="sections.aboutCard3Title"></h3>
+                                <p data-i18n="sections.aboutCard3Desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="developer-contact">
+                    <div class="developer-contact-container">
+                        <h2 data-i18n="sections.contactTitle"></h2>
+                        <p data-i18n="sections.contactDesc"></p>
+                        <div class="developer-links">
+                            <a href="https://github.com/fouad-salehi" target="_blank">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.69c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.7.11 2.5.34 1.9-1.29 2.74-1.02 2.74-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.67.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/>
+                                </svg>
+                                <span data-i18n="sections.contactGithub"></span>
+                            </a>
+                            <a href="https://gitlab.com/fouad-salehi" target="_blank">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M23.6 9.6l-.03-.08-3.27-8.53a.85.85 0 00-1.6-.07l-2.2 6.75H7.5L5.3.92a.85.85 0 00-1.6.07L.43 9.52l-.03.08a6.06 6.06 0 002 7.03l.01.01.03.02 4.98 3.73 2.47 1.87 1.5 1.13a1 1 0 001.22 0l1.5-1.13 2.47-1.87 5.01-3.75.01-.01a6.06 6.06 0 002-7.03z"/>
+                                </svg>
+                                <span data-i18n="sections.contactGitlab"></span>
+                            </a>
+                            <a href="https://www.instagram.com/fouad_salehi" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+                                </svg>
+                                <span data-i18n="sections.contactInstagram"></span>
+                            </a>
+                            <a href="https://t.me/fouad_salehi" target="_blank">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M21.9 3.6 18.7 20c-.24 1.16-.88 1.45-1.78.9l-4.9-3.62-2.36 2.27c-.26.26-.48.48-.98.48l.35-5 9.1-8.22c.4-.35-.09-.55-.62-.2L6.25 13.2l-4.92-1.54c-1.07-.34-1.09-1.07.22-1.58L20.78 2.4c.9-.33 1.68.2 1.12 1.2z"/>
+                                </svg>
+                                <span data-i18n="sections.contactTelegram"></span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="technologies">
+                    <div class="technologies-container">
+                        <h2 data-i18n="sections.techTitle"></h2>
+                        <div class="technology-list">
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/tensorflow.png" alt="TensorFlow.js">
+                                <span>TensorFlow.js</span>
+                            </div>
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/coco-ssd.png" alt="COCO-SSD">
+                                <span>COCO-SSD</span>
+                            </div>
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/firebase.png" alt="FIREBASE">
+                                <span>FIREBASE</span>
+                            </div>
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/github.png" alt="GitHub">
+                                <span>GITHUB</span>
+                            </div>
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/javascript.png" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/html.png" alt="HTML">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="technology-item">
+                                <img src="assets/images/technologies/css.png" alt="CSS">
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <p data-i18n="footer.rights"></p>
+            </div>
+        </footer>
+    </body>
+</html>
